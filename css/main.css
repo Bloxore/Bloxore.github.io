@@ -1,0 +1,101 @@
+/* SCSS Variables */
+/* Colors */
+/* Standard Tags */
+html, body {
+  margin: 0;
+  height: 100%;
+  font-family: "Courier New";
+}
+
+/* Unique IDs */
+#content_background {
+  width: 100%;
+  min-height: 100%;
+  /* Default Height */
+  background-color: #565656;
+}
+
+#header {
+  width: 100%;
+  height: 300px;
+  background-color: #7e9181;
+}
+
+#header_img {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  /* Align on header line */
+  top: 200px;
+  left: calc(50% - 100px);
+}
+
+#internal_content {
+  display: block;
+  width: 500px;
+  margin: auto;
+  padding-top: 100px;
+}
+
+#internal_content a {
+  color: blue;
+}
+
+#internal_content a:visited {
+  color: #d001d0;
+}
+
+/* Classes */
+.block_content {
+  background-color: #E8F7EE;
+  color: #3F2A2B;
+  border-radius: 5px;
+  margin-bottom: 40px;
+}
+
+.block_content::after {
+  content: "";
+  display: block;
+  background-color: #B8C4BB;
+  height: 5px;
+  border-radius: 0px 0px 5px 5px;
+}
+
+.block_content h1 {
+  margin: 0;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  text-align: center;
+}
+
+.block_content p {
+  background-color: #B8C4BB;
+  color: #303030;
+  margin: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  padding-top: 5px;
+}
+
+.label_content {
+  background-color: white;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.label_content * {
+  display: block;
+  width: 500px;
+  margin: auto;
+}
+
+.space {
+  padding-top: 100px;
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,110 @@
+/* SCSS Variables */
+$headerHeight: 300px;
+$contentWidth: 500px;
+/* Colors */
+$descriptiveContentText: #303030;
+$topicContentText: #3F2A2B;
+
+$headerColor: #7e9181;
+$contentBackground: #565656;
+$contentBlockBackground: #E8F7EE;
+$contentDescriptionBackground: #B8C4BB;
+/* Standard Tags */
+
+html, body {
+	margin: 0;
+	height: 100%;
+	font-family: "Courier New";
+}
+
+/* Unique IDs */
+
+#content_background {
+	width: 100%;
+	min-height: 100%;
+	/* Default Height */
+	background-color: $contentBackground;
+}
+#header {
+	width: 100%;
+	height: $headerHeight;
+	background-color: $headerColor;
+}
+#header_img {
+	$width: 200px;
+	$height: 200px;
+
+	position: absolute;
+	width: $width;
+	height: $height;
+	/* Align on header line */
+	top: $headerHeight - $height/2;
+	left: calc(50% - 100px);
+}
+#internal_content {
+	display: block;
+	width: $contentWidth;
+	margin: auto;
+	padding-top: 100px;
+}
+
+#internal_content a {
+	color: blue;
+}
+
+#internal_content a:visited {
+	color: #d001d0;
+}
+
+/* Classes */
+.block_content {
+	background-color: $contentBlockBackground;
+	color: $topicContentText;
+	border-radius: 5px;
+	margin-bottom: 40px;
+}
+
+.block_content::after {
+	content: '';
+	display: block;
+	background-color: $contentDescriptionBackground;
+	height: 5px;
+	border-radius: 0px 0px 5px 5px;
+}
+
+.block_content h1 {
+	margin: 0;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	text-align: center;
+}
+
+.block_content p {
+	background-color: $contentDescriptionBackground;
+	color: $descriptiveContentText;
+	margin: 0;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-top: 5px;
+}
+
+.label_content {
+	background-color: white;
+	position: absolute;
+	width: 100%;
+	left: 0;
+	margin-top: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.label_content * {
+	display: block;
+	width: $contentWidth;
+	margin: auto;
+}
+
+.space {
+	padding-top: 100px;
+}
