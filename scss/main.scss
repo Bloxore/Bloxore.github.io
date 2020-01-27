@@ -1,5 +1,5 @@
 /* SCSS Variables */
-$headerHeight: 300px;
+$headerHeight: 250px;
 $contentWidth: 500px;
 /* Colors */
 $descriptiveContentText: #303030;
@@ -43,9 +43,10 @@ html, body {
 }
 #internal_content {
 	display: block;
-	width: $contentWidth;
+	max-width: $contentWidth;
 	margin: auto;
 	padding-top: 100px;
+	padding-bottom: 30px;
 }
 
 #internal_content a {
@@ -56,12 +57,33 @@ html, body {
 	color: #d001d0;
 }
 
+#internal_content a:active {
+	color: #f0f0f0;
+}
+
+#footer_info {
+	background-color: #101010;
+	color: #f0f0f0;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#footer_info p {
+	display: block;
+	width: $contentWidth;
+	margin: auto;
+}
+
 /* Classes */
 .block_content {
 	background-color: $contentBlockBackground;
 	color: $topicContentText;
 	border-radius: 5px;
 	margin-bottom: 40px;
+}
+
+.block_content.last {
+	margin-bottom: 0px;
 }
 
 .block_content::after {
@@ -89,6 +111,13 @@ html, body {
 	padding-top: 5px;
 }
 
+.block_content img {
+	display: block;
+	width: $contentWidth / 3;
+	margin: auto;
+	margin-top: 10px;
+}
+
 .label_content {
 	background-color: white;
 	position: absolute;
@@ -103,6 +132,10 @@ html, body {
 	display: block;
 	width: $contentWidth;
 	margin: auto;
+}
+
+.label_content h1 {
+	padding-left: 5px;
 }
 
 .space {

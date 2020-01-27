@@ -1,0 +1,27 @@
+[
+	{
+		"sectionName": "Introduction",
+		"blocks": [
+			{
+				"blockName": "Max Klinman",
+				"paragraphs": [
+					"Programmer / Web Designer <br> Passionate and hardworking; always excited to learn new things.",
+					"Current Occupation: Student @ <a href ='https://www.uci.edu'>UCI</a><br> Major: Computer Science"
+				]	
+			}
+		]
+	},
+	{
+		"sectionName": "Projects",
+		"blocks": [
+			{
+				"blockName": "BananaToken Arcade",
+				"paragraphs": [
+					"<img src='assets/bta_logo.svg' />",
+					"<a href='https://www.bananatokenarcade.com'><i>BananaToken Arcade</i></a> is my personal collection of HTML5 and Flash games that I've developed. The website also has a user registration and login system run behind the scenes in a MySQL database. The backend is comprised of a mix of NodeJS and PHP.",
+					"The source code for the games is available <a href='https://www.github.com/Bloxore/Banana-Token-Games-2.0'> here.</a>"
+				]	
+			}
+		]
+	}
+]
