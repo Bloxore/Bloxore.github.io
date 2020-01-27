@@ -18,8 +18,16 @@
 				"blockName": "BananaToken Arcade",
 				"paragraphs": [
 					"<img src='assets/bta_logo.svg' />",
-					"<a href='https://www.bananatokenarcade.com'><i>BananaToken Arcade</i></a> is my personal collection of HTML5 and Flash games that I've developed. The website also has a user registration and login system run behind the scenes in a MySQL database. The backend is comprised of a mix of NodeJS and PHP.",
+					"<a href='https://www.bananatokenarcade.com'><i>BananaToken Arcade</i></a> is my personal collection of HTML5 and Flash games that I've developed. I first made The website in 2014 and since then a small community has grown around it. The website has a custom user registration and login system run behind the scenes in a MySQL database. The backend is comprised of a mix of NodeJS and PHP.",
 					"The source code for the games is available <a href='https://www.github.com/Bloxore/Banana-Token-Games-2.0'> here.</a>"
+				]	
+			},
+                        {
+				"blockName": "HackSC Project - Virtual Dog",
+				"paragraphs": [
+					"My team's <a href="https://devpost.com/software/virtual-dog-nj9prm" >submission</a> for 2019's HackSC Hackathon. The concept is a VR mobile/desktop game where virtually interact and play with a dog. The app even includes voice commands to increase immersion. My team used Unity for the project, my role was as primary programmer (in C#).",
+					"My team won first place in two categories for this hack: the entertainment vertical (major category) and hacker's choice (most popular hack).",
+                                        "The source code for the hack is available <a href='https://github.com/mengvf/Nintendoggos'> here.</a>"
 				]	
 			}
 		]
