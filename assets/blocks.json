@@ -15,17 +15,9 @@
 		"sectionName": "Projects",
 		"blocks": [
 			{
-				"blockName": "This Portfolio [Meta]",
-				"paragraphs": [
-					"A neat corner of the internet for me to list my Computer Science endeavours.",
-					"The source code for this website is available <a href='https://www.github.com/Bloxore/Bloxore.github.io'> here</a>.",
-					"Skills: Vim, Git, Bash (Linux System), Javascript, React, Scss [Sass], jQuery, HTML, CSS, JSON"
-				]	
-			},
-			{
 				"blockName": "Hack @ UCI [FUTURE: Winter 2020]",
 				"paragraphs": [
-					"This project hasn't happened yet, but it will. My team and I don't know what themes there will be but we're planning on experimenting with a new technology just for fun. Check back here Feb. 3rd where a sleep deprieved me will recount the events of the hackathon.",
+					"Project details announced February 3rd.",
 					"Skills: Coffee/Tea/Monster/Gatorade(?)"
 				]	
 			},
@@ -33,7 +25,7 @@
 				"blockName": "Augmented Reality Fitness Research Study [Ongoing]",
 				"paragraphs": [
 					"I'm currently in-progress with a research group at UCI trying to figure out a new innovative way to workout with Microsoft Hololens.",
-					"There aren't many details I can share, but you can learn more about CalIT2 (the research group I'm with) <a href='https://www.calit2.uci.edu'>here</a>.",
+					"You can learn more about CalIT2 (the research group I'm with) <a href='https://www.calit2.uci.edu'>here</a>.",
 					"Skills: Unity, Microsoft Hololens, Microsoft Mixed Reality Toolkit, Git"
 				]	
 			},
@@ -86,6 +78,14 @@
 					"My team's <a href='https://fauxtrot.itch.io/spiral-drift'>submission</a>. This was my first UCI hackathon, and I was in a really nice group that helped me learn the ropes of Unity. We ended up creating a racing game where the goal is demolish as much stuff as you can, but you can only destroy things by drifting into them. It was grueling, but very rewarding and results looked great!",
 					"The source code for this game is no longer available to me.",
 					"Skills: Unity, C#, Blender"
+				]	
+			},
+			{
+				"blockName": "This Portfolio [Meta]",
+				"paragraphs": [
+					"A neat corner of the internet for me to list my Computer Science endeavours.",
+					"The source code for this website is available <a href='https://www.github.com/Bloxore/Bloxore.github.io'> here</a>.",
+					"Skills: Vim, Git, Bash (Linux System), Javascript, React, Scss [Sass], jQuery, HTML, CSS, JSON"
 				]	
 			}
 		]
