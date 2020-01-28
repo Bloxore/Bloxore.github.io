@@ -15,19 +15,78 @@
 		"sectionName": "Projects",
 		"blocks": [
 			{
-				"blockName": "BananaToken Arcade",
+				"blockName": "This Portfolio [Meta]",
+				"paragraphs": [
+					"A neat corner of the internet for me to list my Computer Science endeavours.",
+					"The source code for this website is available <a href='https://www.github.com/Bloxore/Bloxore.github.io'> here.</a>",
+					"Skills: Vim, Git, Bash (Linux System), Javascript, React, Scss [Sass], jQuery, HTML, CSS, JSON"
+				]	
+			},
+			{
+				"blockName": "BananaToken Arcade [Ongoing]",
 				"paragraphs": [
 					"<img src='assets/bta_logo.svg' />",
 					"<a href='https://www.bananatokenarcade.com'><i>BananaToken Arcade</i></a> is my personal collection of HTML5 and Flash games that I've developed. I first made The website in 2014 and since then a small community has grown around it. The website has a custom user registration and login system run behind the scenes in a MySQL database. The backend is comprised of a mix of NodeJS and PHP.",
-					"The source code for the games is available <a href='https://www.github.com/Bloxore/Banana-Token-Games-2.0'> here.</a>"
+					"The source code for the games is available <a href='https://www.github.com/Bloxore/Banana-Token-Games-2.0'> here.</a>",
+					"Skills: Javascript, jQuery, anime.js, HTML, CSS, PHP, SQL, MySQL Databases, HTML5, Phaser3, Flash (AS3)"
+				]	
+			},
+			{
+				"blockName": "Local Hack Day UCI 2019 - Gameboy Assembly [Fall 2019]",
+				"paragraphs": [
+					"<img src='assets/hackday.png' />",
+					"This time a smaller hackathon experience. This one was ~16 hours long, and rather informal. Yet that didn't stop me and my close friend from learning Gameboy Assembly and implementing a small visual experience.",
+					"<img src='assets/hackday2.png' />",
+					"The result was small but, the experience enlightening.",
+					"The source code is <a href='https://www.github.com/Bloxore/LHD_GBASM_UCI19'>here</a>.",
+					"Skills: GB ASM, Git, Bash, Bat"
+				]
+			},
+                        {
+				"blockName": "HackSC Project - Virtual Dog [2019 Spring]",
+				"paragraphs": [
+					"<img src='assets/vrdog.png' />",
+					"My team's <a href='https://devpost.com/software/virtual-dog-nj9prm'>submission</a> for 2019's HackSC Hackathon. The concept is a VR mobile/desktop game where virtually interact and play with a dog. The app even includes voice commands to increase immersion. My team used Unity for the project, my role was as primary programmer (in C#).",
+					"<img src='assets/vrdog2.jpg' />",
+					"My team won first place in two categories for this hack: the entertainment vertical (major category) and hacker's choice (most popular hack).",
+                                        "The source code for the hack is available <a href='https://github.com/mengvf/Nintendoggos'> here.</a>",
+					"Skills: Unity, C#, Git, VR"
 				]	
 			},
                         {
-				"blockName": "HackSC Project - Virtual Dog",
+				"blockName": "Hack @ UCI - Abrupt Cow Chat [2019 Winter]",
 				"paragraphs": [
-					"My team's <a href='https://devpost.com/software/virtual-dog-nj9prm'>submission</a> for 2019's HackSC Hackathon. The concept is a VR mobile/desktop game where virtually interact and play with a dog. The app even includes voice commands to increase immersion. My team used Unity for the project, my role was as primary programmer (in C#).",
-					"My team won first place in two categories for this hack: the entertainment vertical (major category) and hacker's choice (most popular hack).",
-                                        "The source code for the hack is available <a href='https://github.com/mengvf/Nintendoggos'> here.</a>"
+					"<img src='assets/cowchat.jpg' />",
+					"3 people including my self's <a href='https://devpost.com/software/hack-uci-2019'>submission</a> for 2019's HackUCI Hackathon. The concept was simple, create something and submit it so we can get practice working in teams. We did just that and settled on an early internet style chat application. We also made a 90's style website to go along with it.",
+				       	"<img src='assets/cowchat2.png' />",	
+                                        "The source code for the hack is available on that website <a href='http://www.abruptcow.tech'>here.</a> [Warning not https]",
+					"Skills: Python, Nodejs, Google Cloud Services"
+				]	
+			},
+			{
+				"blockName": "Proto Game Jam - Spiral Drift [Fall 2018]",
+				"paragraphs": [
+					"<img src='assets/drift.png' />",
+					"My team's <a href='https://www.fauxtrot.itch.io/sprial-drift'>submission.</a> This was my first UCI hackathon, and I was in a really nice group that helped me learn the ropes of Unity. We ended up creating a racing game where the goal is demolish as much stuff as you can, but you can only destroy things by drifting into them. It was grueling, but very rewarding and results looked great!",
+					"The source code for this game is no longer available to me.",
+					"Skills: Unity, C#, Blender"
+				]	
+			}
+		]
+	},
+	{
+		"sectionName": "Collections",
+		"blocks": [
+			{
+				"blockName": "Github",
+				"paragraphs": [
+					"Collection of all my coding stuffs, if it's mentioned on this website there's a 90% chance you can find it <a href='https://www.github.com/Bloxore'>here too</a>."
+				]	
+			},
+			{
+				"blockName": "Codepen.io",
+				"paragraphs": [
+					"Rather old collection of some of my web design work before college, there are some gems in there. You can find it <a href='https://www.github.com/Bloxore'>here</a>."
 				]	
 			}
 		]

@@ -113,7 +113,8 @@ html, body {
 
 .block_content img {
 	display: block;
-	width: $contentWidth / 3;
+	max-width: $contentWidth / 2.5;
+	max-height: $contentWidth / 2.5;
 	margin: auto;
 	margin-top: 10px;
 }
