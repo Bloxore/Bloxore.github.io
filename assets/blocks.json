@@ -74,8 +74,7 @@
 					"<img src='assets/cowchat.jpg' />",
 					"My team's <a href='https://devpost.com/software/hack-uci-2019'>submission</a> for 2019's HackUCI Hackathon. The concept was simple, create something and submit it so we can get practice working in teams. We did just that and settled on an early internet style chat application. We also made a 90's style website to go along with it.",
 				       	"<img src='assets/cowchat2.png' />",	
-                                        "The source code for the hack is available on that website <a href='http://www.abruptcow.tech'>here</a>. [Warning not https]",
-					"Github source also available <a href='https://www.github.com/Bloxore/Hack-UCI-2019'>here</a>.",
+					"Github source available <a href='https://www.github.com/Bloxore/Hack-UCI-2019'>here</a>.",
 					"Skills: Python, Nodejs, Google Cloud Services"
 				]	
 			},
