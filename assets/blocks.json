@@ -15,9 +15,13 @@
 		"sectionName": "Projects",
 		"blocks": [
 			{
-				"blockName": "Hack @ UCI [FUTURE: Winter 2020]",
+				"blockName": "Hack @ UCI - A.R.T. Artist's Realtime Toolkit [Winter 2020]",
 				"paragraphs": [
-					"Project details announced February 3rd.",
+					"<img src='assets/artlogo.jpg' />",
+					"My team's <a href='https://devpost.com/software/hackuci-2020'>submission.</a> The project for this hackathon was to create a tool for aspiring digital artists to more easily draw on their computers. Most digital artists day have to spend a lot of money on expensive drawing tablets, so we set out to lower the barrier of entry by allow users to use their phones to draw on their computers. We successfully made two iterations of the project.",
+					"<img src='assets/artdemo.jpg' />",
+				       	"The first is just a collaborative drawing app where strokes on canvas appear as strokes on another, linked together by a common ID. The <b>second</b> iteration is where a user's phone can act like a pointer on the screen and be used to draw like you're using a wiimote. (Simply change the mode on both the computer and phone to 'Pointer' to see it in action.",
+					"A demo of the project is available <a href='https://art.kartik-b.com/'>here</a>.",
 					"Skills: Coffee/Tea/Monster/Gatorade(?)"
 				]	
 			},
