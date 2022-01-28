@@ -12,16 +12,22 @@ html, body {
   width: 100%;
   min-height: 100%;
   /* Default Height */
-  background-color: #565656;
+  background-color: #5E503F;
 }
 
 #header {
   width: 100%;
   height: 250px;
-  background-color: #7e9181;
+  background-color: #c7b19d;
 }
 
 #header_img {
+  border-radius: 100px;
+  border: solid 5px #ffffcf;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-shadow: 0px 0px 10px white;
   position: absolute;
   width: 200px;
   height: 200px;
@@ -65,8 +71,8 @@ html, body {
 
 /* Classes */
 .block_content {
-  background-color: #E8F7EE;
-  color: #3F2A2B;
+  background-color: #A9927D;
+  color: #0A0908;
   border-radius: 5px;
   margin-bottom: 40px;
 }
@@ -111,7 +117,8 @@ html, body {
 }
 
 .label_content {
-  background-color: white;
+  background-color: #F2F4F3;
+  color: #0A0908;
   position: absolute;
   width: 100%;
   left: 0;

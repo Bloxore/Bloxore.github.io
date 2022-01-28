@@ -3,10 +3,11 @@
 		"sectionName": "Introduction",
 		"blocks": [
 			{
-				"blockName": "Max Klinman",
+				"blockName": "Ashley Klinman",
 				"paragraphs": [
 					"Programmer / Web Designer <br> Passionate and hardworking; always excited to learn new things.",
-					"Current Occupation: Student @ <a href ='https://www.uci.edu'>UCI</a><br> Major: Computer Science"
+					"Current Occupation: Software Engineer @ <a href ='https://www.amazon.com'/>Amazon</a>",
+					"Graduated from UCI with a <b>3.96 GPA</b><br>Major: <b>Computer Science</b><br>Specialization: <b>Intelligent Systems (AI/ML)</b>"
 				]	
 			}
 		]
@@ -26,7 +27,7 @@
 				]	
 			},
 			{
-				"blockName": "Augmented Reality Fitness Research Study [Ongoing]",
+				"blockName": "Augmented Reality Fitness Research Study [Winter 2020]",
 				"paragraphs": [
 					"I'm currently in-progress with a research group at UCI trying to figure out a new innovative way to workout with Microsoft Hololens.",
 					"You can learn more about CalIT2 (the research group I'm with) <a href='http://www.calit2.uci.edu'>here</a>.",
